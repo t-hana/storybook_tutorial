@@ -28,6 +28,7 @@
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "test-storybook": "test-storybook",
     "init-msw": "msw init public/",
     "test": "jest"
   },
@@ -42,6 +43,7 @@
     "@storybook/preset-create-react-app": "^7.3.2",
     "@storybook/react": "^7.3.2",
     "@storybook/react-vite": "^7.3.2",
+    "@storybook/test-runner": "^0.13.0",
     "@storybook/testing-library": "^0.2.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
