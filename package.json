@@ -2,11 +2,14 @@
   "name": "intro-storybook-react-template",
   "version": "0.2.0",
   "description": "Starter template to get up and running quickly with React and Storybook",
-  "author": "Chromatic <https://chromatic.com/>",
+  "author": {
+    "name": "Chromatic",
+    "email": "https://chromatic.com/"
+  },
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chromaui/intro-storybook-react-template"
+    "url": "git+https://github.com/chromaui/intro-storybook-react-template.git"
   },
   "bugs": {
     "url": "https://github.com/chromaui/intro-storybook-react-template/issues"
@@ -30,7 +33,8 @@
     "build-storybook": "storybook build",
     "test-storybook": "test-storybook",
     "init-msw": "msw init public/",
-    "test": "jest"
+    "test": "jest",
+    "chromatic": "npx chromatic --project-token=chpt_74ac4a6c58b794f"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^7.3.2",
@@ -70,5 +74,8 @@
   },
   "msw": {
     "workerDirectory": "public"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/chromaui/intro-storybook-react-template#readme",
+  "_id": "intro-storybook-react-template@0.2.0"
 }
