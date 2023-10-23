@@ -29,7 +29,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "init-msw": "msw init public/",
-    "test": "jest"
+    "test": "jest",
+    "test-storybook": "test-storybook"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^7.3.2",
@@ -42,6 +43,7 @@
     "@storybook/preset-create-react-app": "^4.1.0",
     "@storybook/react": "^7.3.2",
     "@storybook/react-vite": "^7.3.2",
+    "@storybook/test-runner": "^0.13.0",
     "@storybook/testing-library": "^0.2.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
